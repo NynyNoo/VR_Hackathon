@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.03933699, g: 0.03933699, b: 0.03933699, a: 1}
+  m_IndirectSpecularColor: {r: 0.08850098, g: 0.08850098, b: 0.08850098, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -23915,6 +23915,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5fd6394a214649d45b72cbf29c0b85d8, type: 2}
+    - target: {fileID: -4292154010595695564, guid: ccf86433cde097d42995db938c4722a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.7
+      objectReference: {fileID: 0}
     - target: {fileID: -3862739090831940512, guid: ccf86433cde097d42995db938c4722a0, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -23939,6 +23943,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 970d9687678925c4ab9521577fecbff1, type: 2}
+    - target: {fileID: 1440894323397927523, guid: ccf86433cde097d42995db938c4722a0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1226.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440894323397927523, guid: ccf86433cde097d42995db938c4722a0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 880.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440894323397927523, guid: ccf86433cde097d42995db938c4722a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440894323397927523, guid: ccf86433cde097d42995db938c4722a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440894323397927523, guid: ccf86433cde097d42995db938c4722a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -22.7
+      objectReference: {fileID: 0}
     - target: {fileID: 2554483773788277767, guid: ccf86433cde097d42995db938c4722a0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
