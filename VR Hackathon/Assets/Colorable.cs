@@ -17,7 +17,7 @@ public class Colorable : MonoBehaviour
 
     public void ChangeColor(float brushPower, Color brushColor)
     {
-        Renderer.material.SetFloat("_Intensity", brushPower);
+        Renderer.material.SetFloat("_Intensity", 100f);
         Renderer.material.SetColor("_BrushColor", brushColor);
     }
 }
