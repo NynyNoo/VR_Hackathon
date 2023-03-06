@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Colorable
   - MultipleColorable
+  - Glass
   layers:
   - Default
   - TransparentFX
