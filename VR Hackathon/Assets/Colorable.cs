@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using static UnityEditor.Progress;
 
+using DG;
+using DG.Tweening;
+
 public class Colorable : MonoBehaviour
 {
     [SerializeField]
@@ -17,7 +20,10 @@ public class Colorable : MonoBehaviour
 
     public void ChangeColor(float brushPower, Color brushColor)
     {
-        Renderer.material.SetFloat("_Intensity", 100f);
+        DOTween.To(() => Renderer.material.GetFloat("_Intensity"),
+            (x) => Renderer.material.SetFloat("_Intensity", x),
+            1f, 0.5f);
+
         Renderer.material.SetColor("_BrushColor", brushColor);
     }
 }
