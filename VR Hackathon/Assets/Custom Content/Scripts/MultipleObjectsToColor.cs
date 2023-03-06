@@ -11,6 +11,11 @@ public class MultipleObjectsToColor : MonoBehaviour
     {
         foreach (var item in renderers)
         {
+            if(item.gameObject.tag == "Glass")
+            {
+                continue;
+            }
+
             if(item.material.GetColor("_BrushColor") != brushColor)
             {
                 item.material.SetFloat("_Intensity",  brushPower);
