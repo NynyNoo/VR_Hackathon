@@ -11,23 +11,34 @@ public class ShaderMaterialSetter : MonoBehaviour
 
     void Start()
     {
-        if(transform.childCount == 0)
+        SwapMaterialsInChildren();
+        SwapSelvesMaterialIfNoChildren();
+    }
+
+    private void SwapSelvesMaterialIfNoChildren()
+    {
+        if (transform.childCount == 0)
         {
             Renderer renderer = this.GetComponent<Renderer>();
-            Material tempMaterial = new Material(ShaderMaterial);
-            tempMaterial.SetColor("_StartingColor", renderer.material.color);
-            renderer.material = tempMaterial;
+            SwapMaterial(renderer);
         }
-
+    }
+    private void SwapMaterialsInChildren()
+    {
         foreach (Transform child in transform)
         {
             if (child.tag != "Glass")
             {
                 Renderer childRenderer = child.GetComponent<Renderer>();
-                Material tempMaterial = new Material(ShaderMaterial);
-                tempMaterial.SetColor("_StartingColor", childRenderer.material.color);
-                childRenderer.material = tempMaterial;
+                SwapMaterial(childRenderer);
             }
         }
+    }
+
+    private void SwapMaterial(Renderer renderer)
+    {
+        Material tempMaterial = new Material(ShaderMaterial);
+        tempMaterial.SetColor("_StartingColor", renderer.material.color);
+        renderer.material = tempMaterial;
     }
 }
