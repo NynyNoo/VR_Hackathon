@@ -11,6 +11,14 @@ public class ShaderMaterialSetter : MonoBehaviour
 
     void Start()
     {
+        if(transform.childCount == 0)
+        {
+            Renderer renderer = this.GetComponent<Renderer>();
+            Material tempMaterial = new Material(ShaderMaterial);
+            tempMaterial.SetColor("_StartingColor", renderer.material.color);
+            renderer.material = tempMaterial;
+        }
+
         foreach (Transform child in transform)
         {
             if (child.tag != "Glass")
