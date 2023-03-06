@@ -21,6 +21,7 @@ public class Coloring : MonoBehaviour
                 rendererToPaint.material.SetFloat("_Intensity", rendererToPaint.material.GetFloat("_Intensity") + brushPower);
             }
         }
+
         if (other.tag == "MultipleColorable")
         {
             MultipleObjectsToColor otherScript =
