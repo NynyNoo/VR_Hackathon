@@ -15,7 +15,7 @@ public class Coloring : MonoBehaviour
                 rendererToPaint.material.SetFloat("_Intensity", brushPower);
                 rendererToPaint.material.SetColor("_BrushColor", brushRenderer.material.color);
             }
-            else 
+            else
             {
                 rendererToPaint.material.SetFloat("_Intensity", rendererToPaint.material.GetFloat("_Intensity") + brushPower);
                 rendererToPaint.material.SetFloat("_Intensity", rendererToPaint.material.GetFloat("_Intensity") + brushPower);
@@ -23,9 +23,13 @@ public class Coloring : MonoBehaviour
         }
         if (other.tag == "MultipleColorable")
         {
-            if(other.gameObject.GetComponentInParent<MultipleObjectsToColor>())
-            other.gameObject.GetComponentInParent<MultipleObjectsToColor>()
-                .ChangeColorsOfThisShaders(brushPower, brushRenderer.material.color);
+            MultipleObjectsToColor otherScript =
+                other.gameObject.GetComponentInParent<MultipleObjectsToColor>();
+
+            if (otherScript != null)
+            {
+                otherScript.ChangeColorsOfThisShaders(brushPower, brushRenderer.material.color);
+            }
         }
     }
 
