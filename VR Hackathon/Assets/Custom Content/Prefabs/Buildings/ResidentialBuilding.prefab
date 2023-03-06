@@ -44,7 +44,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6600896051617136903}
-  - component: {fileID: 6865973050825014747}
   m_Layer: 0
   m_Name: ResidentialBuilding
   m_TagString: Untagged
@@ -79,19 +78,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6865973050825014747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5635578917123984573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 929f3f97b3751a0488a6c3d1cea7cae4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ShaderMaterial: {fileID: 2100000, guid: 23c57214ea3ea0543849f3c7a563bad9, type: 2}
 --- !u!1001 &231872117589933391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -955,6 +941,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainStructure_ResidentialBuilding
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bf9321f56aab56b45b1b184de01274f6, type: 3}
+      propertyPath: m_TagString
+      value: MultipleColorable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf9321f56aab56b45b1b184de01274f6, type: 3}
 --- !u!1 &146067413657714459 stripped
@@ -1034,6 +1024,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
+--- !u!1 &7879696917821951842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: bf9321f56aab56b45b1b184de01274f6, type: 3}
+  m_PrefabInstance: {fileID: 7033258436624757299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2016113634122979260
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879696917821951842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6, y: 16.77, z: 6}
+  m_Center: {x: 0, y: 5.6, z: 0}
+--- !u!114 &7939915675836277951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7879696917821951842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929f3f97b3751a0488a6c3d1cea7cae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderMaterial: {fileID: 2100000, guid: 23c57214ea3ea0543849f3c7a563bad9, type: 2}
 --- !u!1001 &7065614848209412569
 PrefabInstance:
   m_ObjectHideFlags: 0

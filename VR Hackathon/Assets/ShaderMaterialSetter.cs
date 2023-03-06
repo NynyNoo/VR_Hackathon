@@ -1,27 +1,24 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.Progress;
 
 public class ShaderMaterialSetter : MonoBehaviour
 {
     [SerializeField]
     private Material ShaderMaterial;
 
-    private Material[] ChildrenMaterials;
-
     void Start()
     {
-        foreach(Transform child in transform)
+        foreach (Transform child in transform)
         {
-            if(child.tag != "Glass")
+            if (child.tag != "Glass")
             {
-                ChildrenMaterials = GetComponentsInChildren<Material>();
-
-                for (int i = 0; i < ChildrenMaterials.Length; i++)
-                {
-                    ShaderMaterial.color = ChildrenMaterials[i].color;
-                    ChildrenMaterials[i] = ShaderMaterial;
-                }
+                Renderer childRenderer = child.GetComponent<Renderer>();
+                Material tempMaterial = new Material(ShaderMaterial);
+                tempMaterial.SetColor("_StartingColor", childRenderer.material.color);
+                childRenderer.material = tempMaterial;
             }
         }
     }
