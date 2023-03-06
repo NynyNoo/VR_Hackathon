@@ -17,6 +17,9 @@
         },
         {
             "m_Id": "b8db49808261430da0fda96f66a61979"
+        },
+        {
+            "m_Id": "7974a419013b48abb6f35b08f3b242b0"
         }
     ],
     "m_Keywords": [],
@@ -443,6 +446,9 @@
         },
         {
             "m_Id": "b8db49808261430da0fda96f66a61979"
+        },
+        {
+            "m_Id": "7974a419013b48abb6f35b08f3b242b0"
         }
     ]
 }
@@ -518,10 +524,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": 899.0,
-            "y": 101.00001525878906,
-            "width": 146.0,
-            "height": 34.00001525878906
+            "x": 923.9999389648438,
+            "y": 35.00004959106445,
+            "width": 146.00006103515626,
+            "height": 34.000003814697269
         }
     },
     "m_Slots": [
@@ -1472,6 +1478,28 @@
     "m_CustomColors": {
         "m_SerializableColors": []
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.BooleanShaderProperty",
+    "m_ObjectId": "7974a419013b48abb6f35b08f3b242b0",
+    "m_Guid": {
+        "m_GuidSerialized": "75e38aba-aba1-4bc0-92c0-6bcaeefae186"
+    },
+    "m_Name": "Boolean",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Boolean",
+    "m_DefaultReferenceName": "_Boolean",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": false
 }
 
 {
