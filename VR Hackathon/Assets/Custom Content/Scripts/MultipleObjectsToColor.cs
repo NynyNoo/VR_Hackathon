@@ -2,30 +2,14 @@ using UnityEngine;
 
 public class MultipleObjectsToColor : MonoBehaviour
 {
-    public Renderer[] renderers;
-    private void Start()
-    {
-        renderers = gameObject.GetComponentsInChildren<Renderer>();
-    }
+    [SerializeField]
+    public Colorable[] Colorables;
+
     public void ChangeColorsOfThisShaders(float brushPower, Color brushColor)
     {
-        foreach (var item in renderers)
+        foreach(var colorable in Colorables)
         {
-            if(item.gameObject.tag == "Glass")
-            {
-                continue;
-            }
-
-            if(item.material.GetColor("_BrushColor") != brushColor)
-            {
-                item.material.SetFloat("_Intensity",  brushPower);
-                item.material.SetColor("_BrushColor", brushColor);
-            }
-            else
-            {
-                item.material.SetFloat("_Intensity", item.material.GetFloat("_Intensity") + brushPower);
-                item.material.SetColor("_BrushColor", brushColor);
-            } 
+            colorable.ChangeColor(brushPower, brushColor);
         }
     }
 }

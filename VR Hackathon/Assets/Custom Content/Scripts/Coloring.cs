@@ -9,23 +9,19 @@ public class Coloring : MonoBehaviour
     {
         if (other.tag == "Colorable")
         {
-            Renderer rendererToPaint = other.GetComponent<Renderer>();
-            if (rendererToPaint.material.GetColor("_BrushColor") != brushRenderer.material.color)
-            {
-                rendererToPaint.material.SetFloat("_Intensity", brushPower);
-                rendererToPaint.material.SetColor("_BrushColor", brushRenderer.material.color);
-            }
-            else 
-            {
-                rendererToPaint.material.SetFloat("_Intensity", rendererToPaint.material.GetFloat("_Intensity") + brushPower);
-                rendererToPaint.material.SetFloat("_Intensity", rendererToPaint.material.GetFloat("_Intensity") + brushPower);
-            }
+            Colorable colorable = other.GetComponent<Colorable>();
+            colorable.ChangeColor(brushPower, brushRenderer.material.color);
         }
+
         if (other.tag == "MultipleColorable")
         {
-            if(other.gameObject.GetComponentInParent<MultipleObjectsToColor>())
-            other.gameObject.GetComponentInParent<MultipleObjectsToColor>()
-                .ChangeColorsOfThisShaders(brushPower, brushRenderer.material.color);
+            MultipleObjectsToColor otherScript =
+                other.gameObject.GetComponentInParent<MultipleObjectsToColor>();
+
+            if (otherScript != null)
+            {
+                otherScript.ChangeColorsOfThisShaders(brushPower, brushRenderer.material.color);
+            }
         }
     }
 
