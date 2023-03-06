@@ -10,6 +10,8 @@ public class Colorable : MonoBehaviour
 {
     [SerializeField]
     private float BrightnessModifier;
+    [SerializeField]
+    private float TweeningDuration = 0.5f;
 
     private Renderer Renderer;
 
@@ -22,7 +24,7 @@ public class Colorable : MonoBehaviour
     {
         DOTween.To(() => Renderer.material.GetFloat("_Intensity"),
             (x) => Renderer.material.SetFloat("_Intensity", x),
-            1f, 0.5f);
+            1f, TweeningDuration);
 
         Renderer.material.SetColor("_BrushColor", brushColor);
     }
