@@ -44,6 +44,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6600896051617136903}
+  - component: {fileID: 6865973050825014747}
   m_Layer: 0
   m_Name: ResidentialBuilding
   m_TagString: Untagged
@@ -78,6 +79,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6865973050825014747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5635578917123984573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929f3f97b3751a0488a6c3d1cea7cae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderMaterial: {fileID: 2100000, guid: 23c57214ea3ea0543849f3c7a563bad9, type: 2}
 --- !u!1001 &231872117589933391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -896,6 +910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BrightnessModifier: 0
 --- !u!1 &1823206668953907747 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: bf9321f56aab56b45b1b184de01274f6, type: 3}
@@ -913,6 +928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BrightnessModifier: 0
 --- !u!1 &4880448371204569815 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6763858364670572316, guid: bf9321f56aab56b45b1b184de01274f6, type: 3}
@@ -930,6 +946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BrightnessModifier: 0
 --- !u!4 &7354833620000101848 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: bf9321f56aab56b45b1b184de01274f6, type: 3}
@@ -952,6 +969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BrightnessModifier: 0
 --- !u!1001 &7065614848209412569
 PrefabInstance:
   m_ObjectHideFlags: 0
