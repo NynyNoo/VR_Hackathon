@@ -180,6 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderMaterial: {fileID: 2100000, guid: 23c57214ea3ea0543849f3c7a563bad9, type: 2}
+  BaseMaterialColorForShades: {fileID: 8077687762132133516, guid: bf9321f56aab56b45b1b184de01274f6, type: 3}
 --- !u!1001 &231872117589933391
 PrefabInstance:
   m_ObjectHideFlags: 0

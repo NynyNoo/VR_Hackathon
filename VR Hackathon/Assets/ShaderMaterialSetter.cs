@@ -9,7 +9,7 @@ public class ShaderMaterialSetter : MonoBehaviour
     [SerializeField]
     private Material ShaderMaterial;
     [SerializeField]
-    private Color BaseColorForShades;
+    private Material BaseMaterialColorForShades;
 
     void Start()
     {
@@ -37,6 +37,6 @@ public class ShaderMaterialSetter : MonoBehaviour
 
     private void SetBrightnessModifier(Colorable colorable, Color objectsColor)
     {
-        colorable.BrightnessModifier = objectsColor.r - BaseColorForShades.r;
+        colorable.BrightnessModifier = objectsColor.r - BaseMaterialColorForShades.color.r;
     }
 }
