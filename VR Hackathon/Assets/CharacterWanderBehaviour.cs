@@ -10,12 +10,25 @@ public class CharacterWanderBehaviour : MonoBehaviour
     [SerializeField]
     private float _maxWalkDistance = 10f;
 
+    public bool IsWaiting;
+
     private Vector3 _currentDestination;
 
     void Start()
     {
         _navMeshAgent.destination = GetRandomPositionOnNavmesh();
         _navMeshAgent.isStopped = false;
+    }
+
+    private void Update()
+    {
+        if(_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
+        {
+            if (IsWaiting == false)
+            {
+                StartCoroutine(WaitBeforeWandering());
+            }
+        }
     }
 
     private Vector3 GetRandomPositionOnNavmesh()
@@ -29,5 +42,27 @@ public class CharacterWanderBehaviour : MonoBehaviour
         return hit.position;
     }
 
+    private IEnumerator WaitBeforeWandering()
+    {
+        IsWaiting = true;
+
+        float passedTime = 0;
+        float timeToWait = Random.Range(1.0f, 10.0f);
+
+        while(passedTime < timeToWait)
+        {
+            yield return null;
+            passedTime += Time.deltaTime;
+        }
+
+        GoToARandomPosition();
+    }
+
+    private void GoToARandomPosition()
+    {
+        _navMeshAgent.destination = GetRandomPositionOnNavmesh();
+        _navMeshAgent.isStopped = false;
+        IsWaiting = false;
+    }
 
 }
