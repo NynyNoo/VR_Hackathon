@@ -9,7 +9,7 @@ using DG.Tweening;
 public class Colorable : MonoBehaviour
 {
     [SerializeField]
-    private float BrightnessModifier;
+    public float BrightnessModifier;
     [SerializeField]
     private float TweeningDuration = 0.5f;
 

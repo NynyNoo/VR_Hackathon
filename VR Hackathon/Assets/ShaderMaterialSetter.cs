@@ -8,6 +8,8 @@ public class ShaderMaterialSetter : MonoBehaviour
 {
     [SerializeField]
     private Material ShaderMaterial;
+    [SerializeField]
+    private Color BaseColorForShades;
 
     void Start()
     {
@@ -21,6 +23,7 @@ public class ShaderMaterialSetter : MonoBehaviour
         foreach(var colorable in childrensColorables)
         {
             Renderer renderer = colorable.gameObject.GetComponent<Renderer>();
+            SetBrightnessModifier(colorable, renderer.material.color);
             SwapMaterial(renderer);
         }
     }
@@ -30,5 +33,10 @@ public class ShaderMaterialSetter : MonoBehaviour
         Material tempMaterial = new Material(ShaderMaterial);
         tempMaterial.SetColor("_StartingColor", renderer.material.color);
         renderer.material = tempMaterial;
+    }
+
+    private void SetBrightnessModifier(Colorable colorable, Color objectsColor)
+    {
+        colorable.BrightnessModifier = objectsColor.r - BaseColorForShades.r;
     }
 }
