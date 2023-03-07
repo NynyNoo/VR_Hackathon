@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9070966047008428733}
+  - component: {fileID: 3942685769531610886}
   m_Layer: 0
   m_Name: BremerWall2
   m_TagString: Untagged
@@ -32,6 +33,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3942685769531610886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7886513736351329147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929f3f97b3751a0488a6c3d1cea7cae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderMaterial: {fileID: 2100000, guid: 23c57214ea3ea0543849f3c7a563bad9, type: 2}
+  BaseMaterialColorForShades: {fileID: -747215870611891885, guid: 0c998899438adf0499bbaf801f0c1518, type: 3}
 --- !u!1001 &7346479529839837429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83,12 +98,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5754060345647867467, guid: 9af1bf227d8e76c4e9c9844c7e584cc7, type: 3}
+      propertyPath: m_TagString
+      value: Colorable
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9af1bf227d8e76c4e9c9844c7e584cc7, type: 3}
       propertyPath: m_Name
       value: BremerWall2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af1bf227d8e76c4e9c9844c7e584cc7, type: 3}
+--- !u!1 &6185281426069854528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5754060345647867467, guid: 9af1bf227d8e76c4e9c9844c7e584cc7, type: 3}
+  m_PrefabInstance: {fileID: 7346479529839837429}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &676293896949676107
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6185281426069854528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7414509850709746518, guid: 9af1bf227d8e76c4e9c9844c7e584cc7, type: 3}
+--- !u!114 &9149457897432909247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6185281426069854528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BrightnessModifier: 0
+  TweeningDuration: 0.5
 --- !u!4 &7095783265704159006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9af1bf227d8e76c4e9c9844c7e584cc7, type: 3}
