@@ -103,10 +103,52 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrafficCone
       objectReference: {fileID: 0}
+    - target: {fileID: 8513859187771203891, guid: b5c9142177fc39e4489ed90daf886cd7, type: 3}
+      propertyPath: m_TagString
+      value: Colorable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5c9142177fc39e4489ed90daf886cd7, type: 3}
+--- !u!1 &467119107562735876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b5c9142177fc39e4489ed90daf886cd7, type: 3}
+  m_PrefabInstance: {fileID: 773180474840200277}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4804279072618498479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467119107562735876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 929f3f97b3751a0488a6c3d1cea7cae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderMaterial: {fileID: 2100000, guid: 23c57214ea3ea0543849f3c7a563bad9, type: 2}
+  BaseMaterialColorForShades: {fileID: 8077687762132133516, guid: bf9321f56aab56b45b1b184de01274f6, type: 3}
 --- !u!4 &950359537752429502 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b5c9142177fc39e4489ed90daf886cd7, type: 3}
   m_PrefabInstance: {fileID: 773180474840200277}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &8979524930208159078 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8513859187771203891, guid: b5c9142177fc39e4489ed90daf886cd7, type: 3}
+  m_PrefabInstance: {fileID: 773180474840200277}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6630783987007974537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8979524930208159078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BrightnessModifier: 0
+  TweeningDuration: 0.5
