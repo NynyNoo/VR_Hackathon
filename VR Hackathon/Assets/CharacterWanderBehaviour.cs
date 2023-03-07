@@ -9,6 +9,10 @@ public class CharacterWanderBehaviour : MonoBehaviour
     private NavMeshAgent _navMeshAgent;
     [SerializeField]
     private float _maxWalkDistance = 10f;
+    [SerializeField]
+    private float _minWaitTime = 5f;
+    [SerializeField]
+    private float _maxWaitTime = 20f;
 
     public bool IsWaiting;
 
@@ -47,7 +51,7 @@ public class CharacterWanderBehaviour : MonoBehaviour
         IsWaiting = true;
 
         float passedTime = 0;
-        float timeToWait = Random.Range(1.0f, 10.0f);
+        float timeToWait = Random.Range(_minWaitTime, _maxWaitTime);
 
         while(passedTime < timeToWait)
         {
