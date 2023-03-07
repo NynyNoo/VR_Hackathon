@@ -26,7 +26,7 @@ public class CharacterWanderBehaviour : MonoBehaviour
 
     private void Update()
     {
-        if(_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
+        if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
         {
             if (IsWaiting == false)
             {
@@ -53,7 +53,7 @@ public class CharacterWanderBehaviour : MonoBehaviour
         float passedTime = 0;
         float timeToWait = Random.Range(_minWaitTime, _maxWaitTime);
 
-        while(passedTime < timeToWait)
+        while (passedTime < timeToWait)
         {
             yield return null;
             passedTime += Time.deltaTime;
@@ -68,5 +68,4 @@ public class CharacterWanderBehaviour : MonoBehaviour
         _navMeshAgent.isStopped = false;
         IsWaiting = false;
     }
-
 }
