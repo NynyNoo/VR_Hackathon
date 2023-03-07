@@ -107,34 +107,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dumpster
       objectReference: {fileID: 0}
+    - target: {fileID: 7762943613364826154, guid: 8f39982a658c39545a2b69e61d921afd, type: 3}
+      propertyPath: m_TagString
+      value: Colorable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f39982a658c39545a2b69e61d921afd, type: 3}
---- !u!1 &4419583575234111347 stripped
+--- !u!1 &223123243713831182 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: -3029032871660112297, guid: 8f39982a658c39545a2b69e61d921afd, type: 3}
+  m_CorrespondingSourceObject: {fileID: 7762943613364826154, guid: 8f39982a658c39545a2b69e61d921afd, type: 3}
   m_PrefabInstance: {fileID: 7539929017895178532}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &2358062895124941570
+--- !u!64 &2068084870235746603
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4419583575234111347}
+  m_GameObject: {fileID: 223123243713831182}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: -5668984478841134232, guid: 8f39982a658c39545a2b69e61d921afd, type: 3}
---- !u!114 &4637962342670776582
+  m_Mesh: {fileID: 8008757525098345356, guid: 8f39982a658c39545a2b69e61d921afd, type: 3}
+--- !u!114 &8103988137336510613
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4419583575234111347}
+  m_GameObject: {fileID: 223123243713831182}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
