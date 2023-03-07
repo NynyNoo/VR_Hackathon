@@ -11,27 +11,17 @@ public class ShaderMaterialSetter : MonoBehaviour
 
     void Start()
     {
-        SwapMaterialsInChildren();
-        SwapSelvesMaterialIfNoChildren();
+        SwapMaterialsForAllColorableChildren();
     }
 
-    private void SwapSelvesMaterialIfNoChildren()
+    private void SwapMaterialsForAllColorableChildren()
     {
-        if (transform.childCount == 0)
+        Colorable[] childrensColorables = this.GetComponentsInChildren<Colorable>();
+
+        foreach(var colorable in childrensColorables)
         {
-            Renderer renderer = this.GetComponent<Renderer>();
+            Renderer renderer = colorable.gameObject.GetComponent<Renderer>();
             SwapMaterial(renderer);
-        }
-    }
-    private void SwapMaterialsInChildren()
-    {
-        foreach (Transform child in transform)
-        {
-            if (child.tag != "Glass")
-            {
-                Renderer childRenderer = child.GetComponent<Renderer>();
-                SwapMaterial(childRenderer);
-            }
         }
     }
 
