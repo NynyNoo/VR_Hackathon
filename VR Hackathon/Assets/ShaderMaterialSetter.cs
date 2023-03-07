@@ -8,30 +8,23 @@ public class ShaderMaterialSetter : MonoBehaviour
 {
     [SerializeField]
     private Material ShaderMaterial;
+    [SerializeField]
+    private Material BaseMaterialColorForShades;
 
     void Start()
     {
-        SwapMaterialsInChildren();
-        SwapSelvesMaterialIfNoChildren();
+        SwapMaterialsForAllColorableChildren();
     }
 
-    private void SwapSelvesMaterialIfNoChildren()
+    private void SwapMaterialsForAllColorableChildren()
     {
-        if (transform.childCount == 0)
+        Colorable[] childrensColorables = this.GetComponentsInChildren<Colorable>();
+
+        foreach(var colorable in childrensColorables)
         {
-            Renderer renderer = this.GetComponent<Renderer>();
+            Renderer renderer = colorable.gameObject.GetComponent<Renderer>();
+            SetBrightnessModifier(colorable, renderer.material.color);
             SwapMaterial(renderer);
-        }
-    }
-    private void SwapMaterialsInChildren()
-    {
-        foreach (Transform child in transform)
-        {
-            if (child.tag != "Glass")
-            {
-                Renderer childRenderer = child.GetComponent<Renderer>();
-                SwapMaterial(childRenderer);
-            }
         }
     }
 
@@ -40,5 +33,10 @@ public class ShaderMaterialSetter : MonoBehaviour
         Material tempMaterial = new Material(ShaderMaterial);
         tempMaterial.SetColor("_StartingColor", renderer.material.color);
         renderer.material = tempMaterial;
+    }
+
+    private void SetBrightnessModifier(Colorable colorable, Color objectsColor)
+    {
+        colorable.BrightnessModifier = objectsColor.r - BaseMaterialColorForShades.color.r;
     }
 }
