@@ -3551,20 +3551,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
---- !u!114 &2123219318433462370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2627341710486660863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BrightnessModifier: 0
-  TweeningDuration: 0.5
 --- !u!1 &8144613131765260616 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 978263148236074363, guid: 900c13b2a69a9fd44960c8f9031fc509, type: 3}
