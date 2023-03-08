@@ -11,13 +11,19 @@ public class Colorable : MonoBehaviour
     [SerializeField]
     public float BrightnessModifier;
     [SerializeField]
-    private float TweeningDuration = 0.5f;
+    private float TweeningDuration = 15f;
+    private GameProgressCounter gameProgressCounter;
+    private bool risedCounter=false;
+    public ScriptableObject scriptable;
 
     private Renderer Renderer;
 
     private void Start()
     {
         Renderer = gameObject.GetComponent<Renderer>();
+        GameObject gameplayObject = GameObject.Find("Gameplay");
+        gameProgressCounter = gameplayObject.GetComponent<GameProgressCounter>();
+
     }
 
     public void ChangeColor(float brushPower, Color brushColor)
@@ -32,5 +38,15 @@ public class Colorable : MonoBehaviour
         brushColor.b += BrightnessModifier;
 
         Renderer.material.SetColor("_BrushColor", brushColor);
+        if (!risedCounter)
+            RiseCounter();
+    }
+    private void RiseCounter()
+    {
+        if (gameProgressCounter != null)
+        {
+            gameProgressCounter.UpdateCounter(gameObject.name);
+            risedCounter = true;
+        }
     }
 }
