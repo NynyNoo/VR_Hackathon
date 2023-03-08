@@ -9694,6 +9694,7 @@ GameObject:
   - component: {fileID: 3910262995665383285}
   - component: {fileID: 8907533614177206866}
   - component: {fileID: 7550672481036408046}
+  - component: {fileID: 9083828100993339585}
   m_Layer: 0
   m_Name: InkedCharacter
   m_TagString: Untagged
@@ -9757,6 +9758,27 @@ MonoBehaviour:
   _minWaitTime: 5
   _maxWaitTime: 20
   IsWaiting: 0
+--- !u!95 &9083828100993339585
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5469904150676661292}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &4956332397397933638
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9832,7 +9854,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6ef806dfc4e5bd742aba26ff46230174, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2db7e17401e08b94697ecd7acce75ab1, type: 3}
 --- !u!4 &4956332397398320326 stripped
 Transform:
