@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.29492226, g: 0.29492226, b: 0.29492226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -37215,6 +37215,14 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4877021593738669084, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4877021593738669084, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4878869774621214076, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -48357,6 +48365,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: moveWithTransform
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: CollisionModule.quality
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: CollisionModule.radiusScale
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: CollisionModule.maxKillSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: CollisionModule.minKillSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: CollisionModule.m_Bounce.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: CollisionModule.collidesWith.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: CollisionModule.collidesWithDynamic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: CollisionModule.multiplyColliderForceByParticleSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3542892369474772115, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
+      propertyPath: CollisionModule.multiplyColliderForceByCollisionAngle
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3910262995665383285, guid: 251d0cd54a6e74b4a81933c4a5075221, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -48598,6 +48646,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2005205864 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4180231182689341174, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+  m_PrefabInstance: {fileID: 1663463611}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2005205869
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005205864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 1, z: 10}
+  m_Center: {x: 0, y: -0.5, z: 0}
 --- !u!1001 &2141844103
 PrefabInstance:
   m_ObjectHideFlags: 0
