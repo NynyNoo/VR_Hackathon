@@ -9,6 +9,8 @@ public class CharacterWanderBehaviour : MonoBehaviour
     [SerializeField]
     private NavMeshAgent _navMeshAgent;
     [SerializeField]
+    private Animator _animator;
+    [SerializeField]
     private float _maxWalkDistance = 10f;
     [SerializeField]
     private float _minWaitTime = 5f;
@@ -18,14 +20,19 @@ public class CharacterWanderBehaviour : MonoBehaviour
     private bool _isWaiting;
     private bool _isWalking;
 
+    GameObject destinationCube;
+
     void Start()
     {
-        _navMeshAgent.destination = GetRandomPositionOnNavmesh();
+        GoToARandomPosition();
         _navMeshAgent.isStopped = false;
+        destinationCube = GameObject.CreatePrimitive(PrimitiveType.Cube);
     }
 
     private void Update()
     {
+        destinationCube.transform.position = _navMeshAgent.destination;
+
         if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
         {
             _isWalking = false;
@@ -43,7 +50,7 @@ public class CharacterWanderBehaviour : MonoBehaviour
         direction += transform.position;
 
         NavMeshHit hit;
-        NavMesh.SamplePosition(direction, out hit, Random.Range(0f, _maxWalkDistance), 1);
+        NavMesh.SamplePosition(direction, out hit, Random.Range(1f, _maxWalkDistance), 1);
 
         return hit.position;
     }
@@ -55,7 +62,10 @@ public class CharacterWanderBehaviour : MonoBehaviour
             yield break;
         }
 
+        _isWalking = false;
         _isWaiting = true;
+        _animator.SetBool("IsWalking", false);
+        _animator.SetBool("IsWaiting", true);
 
         float passedTime = 0;
         float timeToWait = Random.Range(_minWaitTime, _maxWaitTime);
@@ -73,7 +83,9 @@ public class CharacterWanderBehaviour : MonoBehaviour
     {
         _navMeshAgent.destination = GetRandomPositionOnNavmesh();
 
-        _isWaiting = false;
         _isWalking = true;
+        _isWaiting = false;
+        _animator.SetBool("IsWalking", true);
+        _animator.SetBool("IsWaiting", false);
     }
 }
