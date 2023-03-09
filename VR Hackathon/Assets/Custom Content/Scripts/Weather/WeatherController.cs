@@ -5,27 +5,48 @@ using UnityEngine;
 public class WeatherController : MonoBehaviour
 {
     [SerializeField]
-    private Material _currentSkybox;
-    [SerializeField]
     private Material _daySkyboxTemplate;
     [SerializeField]
-    private int _progressTresholdForSkyboxChange;
+    private Material _nightSkyboxTemplate;
+    [SerializeField]
+    private int _progressTresholdForSkyboxChange = 50;
 
-    private void Start()
+    private Material _currentSkybox;
+
+    private void Awake()
     {
         GameProgressCounter.CounterUpdated += HandleCounterUpdate;
+        _currentSkybox = RenderSettings.skybox;
+
+        ResetWeather();
     }
 
     private void HandleCounterUpdate(int progress)
     {
         if(progress > _progressTresholdForSkyboxChange)
         {
-            ChangeSkyboxParameters();
+            ChangeWeatherToDay();
         }
     }
 
-    private void ChangeSkyboxParameters()
+    private void ChangeWeatherToDay()
     {
+        CopyShaderColorParameter(_daySkyboxTemplate, _currentSkybox,"_SkyGradientTop");
+    }
 
+    private void CopyShaderColorParameter(Material from, Material to,string name)
+    {
+        Color colorToCopy = from.GetColor(name);
+        to.SetColor(name, colorToCopy);
+    }
+
+    private void ResetWeather()
+    {
+        CopyShaderColorParameter(_nightSkyboxTemplate, _currentSkybox, "_SkyGradientTop");
+    }
+
+    private void OnApplicationQuit()
+    {
+        ResetWeather();
     }
 }

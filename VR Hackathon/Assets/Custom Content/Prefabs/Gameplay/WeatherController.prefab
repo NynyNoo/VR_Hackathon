@@ -27,7 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -44,3 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1605dfdc914846c47aee595981860c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _daySkyboxTemplate: {fileID: 2100000, guid: ac89343c4eae1214e80fa834d1f8169d, type: 2}
+  _nightSkyboxTemplate: {fileID: 2100000, guid: c5919c94e56342346880b80efc2c324a, type: 2}
+  _progressTresholdForSkyboxChange: 50
