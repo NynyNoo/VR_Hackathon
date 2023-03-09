@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: DissolveTexture
+  m_Name: DissolveTextureSkate
   m_Shader: {fileID: -6465566751694194690, guid: bb2d655383b96e542925655903692168, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []

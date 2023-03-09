@@ -9697,7 +9697,7 @@ GameObject:
   - component: {fileID: 9083828100993339585}
   - component: {fileID: 6071702681861528217}
   m_Layer: 0
-  m_Name: InkedCharacter
+  m_Name: InkedCharacterSkate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
