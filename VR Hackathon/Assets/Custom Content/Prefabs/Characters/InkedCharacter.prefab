@@ -9794,6 +9794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _restorationStatusTreshold: 0.6
   _inkDrops: {fileID: 3542892369474772115}
+  _wanderBehaviour: {fileID: 7550672481036408046}
   IsColorRestored: 0
 --- !u!1001 &4956332397397933638
 PrefabInstance:
