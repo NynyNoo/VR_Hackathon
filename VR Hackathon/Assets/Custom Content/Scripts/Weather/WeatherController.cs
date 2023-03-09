@@ -1,3 +1,5 @@
+using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,6 +12,12 @@ public class WeatherController : MonoBehaviour
     private Material _nightSkyboxTemplate;
     [SerializeField]
     private int _progressTresholdForSkyboxChange = 50;
+    [SerializeField]
+    private Transform _directionalLight;
+    [SerializeField]
+    private float _lightXRotationWhenSunUp = 15f;
+    [SerializeField]
+    private float _sunRisingTime = 5f;
 
     private Material _currentSkybox;
 
@@ -23,18 +31,28 @@ public class WeatherController : MonoBehaviour
 
     private void HandleCounterUpdate(int progress)
     {
-        if(progress > _progressTresholdForSkyboxChange)
+        if (progress > _progressTresholdForSkyboxChange)
         {
             ChangeWeatherToDay();
+            ChangeSunPosition();
         }
+    }
+
+    private void ChangeSunPosition()
+    {
+        float y = _directionalLight.transform.rotation.eulerAngles.y;
+
+        _directionalLight.DORotate(
+            new Vector3(_lightXRotationWhenSunUp,
+            y, 0f), _sunRisingTime);
     }
 
     private void ChangeWeatherToDay()
     {
-        CopyShaderColorParameter(_daySkyboxTemplate, _currentSkybox,"_SkyGradientTop");
+        CopyShaderColorParameter(_daySkyboxTemplate, _currentSkybox, "_SkyGradientTop");
     }
 
-    private void CopyShaderColorParameter(Material from, Material to,string name)
+    private void CopyShaderColorParameter(Material from, Material to, string name)
     {
         Color colorToCopy = from.GetColor(name);
         to.SetColor(name, colorToCopy);

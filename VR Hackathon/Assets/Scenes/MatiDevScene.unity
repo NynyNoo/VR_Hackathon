@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 0
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: ac89343c4eae1214e80fa834d1f8169d, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: e5f47dad2c4379848ab51f52d0f7fbc7, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.13236833, g: 0.40580785, b: 0.5457954, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -293,6 +293,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: BobRoseSet
       objectReference: {fileID: 0}
+    - target: {fileID: 9172572703722722987, guid: 5a2df77a3b36f6b44ad28ca36bee83ec, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 9172572703722722987, guid: 5a2df77a3b36f6b44ad28ca36bee83ec, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.47
+      objectReference: {fileID: 0}
+    - target: {fileID: 9172572703722722987, guid: 5a2df77a3b36f6b44ad28ca36bee83ec, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 9172572703722722987, guid: 5a2df77a3b36f6b44ad28ca36bee83ec, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 9172572703722722987, guid: 5a2df77a3b36f6b44ad28ca36bee83ec, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9172572703722722987, guid: 5a2df77a3b36f6b44ad28ca36bee83ec, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a2df77a3b36f6b44ad28ca36bee83ec, type: 3}
 --- !u!1001 &720198242
@@ -306,6 +330,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WeatherController
       objectReference: {fileID: 0}
+    - target: {fileID: 2429063271195844776, guid: a8e3d1c1a59a8f04cb64dfa7920587a4, type: 3}
+      propertyPath: _directionalLight
+      value: 
+      objectReference: {fileID: 2077974311}
     - target: {fileID: 7408289745123005300, guid: a8e3d1c1a59a8f04cb64dfa7920587a4, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -23872,14 +23900,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2077974308}
-  m_LocalRotation: {x: 0.03996485, y: -0.95823854, z: 0.168015, w: 0.22793117}
+  m_LocalRotation: {x: -0.08855613, y: -0.8988024, z: -0.37229612, w: 0.21379343}
   m_LocalPosition: {x: 0, y: 15.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 19.89, y: -153.24, z: 0}
+  m_LocalEulerAnglesHint: {x: -45, y: -153.24, z: 0}
 --- !u!1001 &5142942074286990271
 PrefabInstance:
   m_ObjectHideFlags: 0
