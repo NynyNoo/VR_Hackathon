@@ -19,6 +19,7 @@ public class CharacterWanderBehaviour : MonoBehaviour
 
     private bool _isWaiting;
     private bool _isWalking;
+    private bool _isHappy;
 
     GameObject destinationCube;
 
@@ -87,5 +88,11 @@ public class CharacterWanderBehaviour : MonoBehaviour
         _isWaiting = false;
         _animator.SetBool("IsWalking", true);
         _animator.SetBool("IsWaiting", false);
+    }
+
+    public void ChangeMoodToHappy()
+    {
+        _isHappy = true;
+        _animator.SetBool("IsHappy", true);
     }
 }
