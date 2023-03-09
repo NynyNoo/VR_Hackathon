@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2899650035119506427}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.153, z: 0}
+  m_LocalPosition: {x: 0, y: 2.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -668,9 +668,9 @@ ParticleSystem:
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
     donutRadius: 0.2
-    m_Position: {x: 0, y: 0, z: 0}
+    m_Position: {x: -0.01, y: 0, z: 0.15}
     m_Rotation: {x: 90, y: 0, z: 0}
-    m_Scale: {x: 1.26, y: 1, z: 1}
+    m_Scale: {x: 0.52, y: 0.59, z: 1}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -9697,7 +9697,7 @@ GameObject:
   - component: {fileID: 9083828100993339585}
   - component: {fileID: 6071702681861528217}
   m_Layer: 0
-  m_Name: InkedCharacter
+  m_Name: InkedCharacterSkate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9794,6 +9794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _restorationStatusTreshold: 0.6
   _inkDrops: {fileID: 3542892369474772115}
+  _wanderBehaviour: {fileID: 7550672481036408046}
   IsColorRestored: 0
 --- !u!1001 &4956332397397933638
 PrefabInstance:

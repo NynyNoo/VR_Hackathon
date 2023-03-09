@@ -19,19 +19,20 @@ public class CharacterWanderBehaviour : MonoBehaviour
 
     private bool _isWaiting;
     private bool _isWalking;
+    private bool _isHappy;
 
-    GameObject destinationCube;
+    //GameObject destinationCube;
 
     void Start()
     {
         GoToARandomPosition();
         _navMeshAgent.isStopped = false;
-        destinationCube = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        //destinationCube = GameObject.CreatePrimitive(PrimitiveType.Cube);
     }
 
     private void Update()
     {
-        destinationCube.transform.position = _navMeshAgent.destination;
+        //destinationCube.transform.position = _navMeshAgent.destination;
 
         if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
         {
@@ -87,5 +88,11 @@ public class CharacterWanderBehaviour : MonoBehaviour
         _isWaiting = false;
         _animator.SetBool("IsWalking", true);
         _animator.SetBool("IsWaiting", false);
+    }
+
+    public void ChangeMoodToHappy()
+    {
+        _isHappy = true;
+        _animator.SetBool("IsHappy", true);
     }
 }
