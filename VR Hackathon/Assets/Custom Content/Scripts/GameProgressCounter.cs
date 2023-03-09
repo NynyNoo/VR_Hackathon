@@ -20,7 +20,6 @@ public class GameProgressCounter : MonoBehaviour
         coloredObjectsCounter++;
         CounterUpdated.Invoke(coloredObjectsCounter);
 
-        Debug.Log(coloredObjectsCounter + "na" + maxObjectsToColor);
         switch (eventName)
         {
             case "Trunk":
