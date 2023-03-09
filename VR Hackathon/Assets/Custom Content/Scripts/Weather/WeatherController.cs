@@ -53,11 +53,19 @@ public class WeatherController : MonoBehaviour
     {
         CopyShaderColorParameter(_daySkyboxTemplate, _currentSkybox, "_SkyGradientTop");
         _cityLightsController.BeginDisablingAllLights();
+        TurnOffFog();
     }
 
     private void CopyShaderColorParameter(Material from, Material to, string name)
     {
         to.DOColor(from.GetColor(name), name, 5f).From(to.GetColor(name));
+    }
+
+    private void TurnOffFog()
+    {
+        DOTween.To(() => RenderSettings.fogDensity,
+            (x) => RenderSettings.fogDensity = x,
+            0f, _sunRisingTime).SetEase(Ease.InCirc);
     }
 
     private void ResetWeather()
