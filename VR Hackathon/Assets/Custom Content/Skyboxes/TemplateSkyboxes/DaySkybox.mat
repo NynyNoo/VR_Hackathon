@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Skybox1
+  m_Name: DaySkybox
   m_Shader: {fileID: 4800000, guid: eb3c6fb598ded4c71b8968e1c40a3b4d, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -24,18 +24,18 @@ Material:
     m_Floats:
     - _HorizonLineContribution: 0
     - _HorizonLineExponent: 1
-    - _SkyGradientExponent: 4
+    - _SkyGradientExponent: 50
     - _SunDiscContribution: 1
-    - _SunDiscExponent: 100000
+    - _SunDiscExponent: 60000
     - _SunDiscMultiplier: 100
-    - _SunHaloContribution: 0.5
+    - _SunHaloContribution: 0.2
     - _SunHaloExponent: 50
     - _Title: 0
     - __dirty: 0
     m_Colors:
     - _HorizonLineColor: {r: 0, g: 0, b: 0, a: 1}
     - _SkyGradientBottom: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
-    - _SkyGradientTop: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+    - _SkyGradientTop: {r: 0.4198113, g: 0.85654664, b: 1, a: 1}
     - _SunDiscColor: {r: 1, g: 1, b: 1, a: 1}
     - _SunHaloColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
