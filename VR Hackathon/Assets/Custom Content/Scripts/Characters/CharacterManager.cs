@@ -6,11 +6,11 @@ using UnityEngine;
 public class CharacterManager : MonoBehaviour
 {
     [SerializeField]
-    private CharacterColorRestoreBehaviour[] _restoreBehaviours;
-    [SerializeField]
     private float _tweeningDuration = 5f;
     [SerializeField]
     private int _progressChangeTreshold = 50;
+
+    private CharacterColorRestoreBehaviour[] _restoreBehaviours;
 
     private void Start()
     {
