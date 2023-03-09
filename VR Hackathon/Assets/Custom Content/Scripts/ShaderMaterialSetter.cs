@@ -30,7 +30,7 @@ public class ShaderMaterialSetter : MonoBehaviour
 
     private void SwapMaterial(Renderer renderer)
     {
-        Material tempMaterial = ShaderMaterial;
+        Material tempMaterial = new Material(ShaderMaterial);
         tempMaterial.SetColor("_StartingColor", renderer.material.color);
         renderer.material = tempMaterial;
     }
