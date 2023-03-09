@@ -9,7 +9,7 @@ public class GameProgressCounter : MonoBehaviour
     private int maxObjectsToColor;
     private int coloredObjectsCounter;
 
-    public static Action<int> OnCounterUpdate = delegate { };
+    public static Action<int> CounterUpdated = delegate { };
 
     private void Start()
     {
@@ -18,7 +18,7 @@ public class GameProgressCounter : MonoBehaviour
     public void UpdateCounter(string eventName)
     {
         coloredObjectsCounter++;
-        OnCounterUpdate.Invoke(coloredObjectsCounter);
+        CounterUpdated.Invoke(coloredObjectsCounter);
 
         Debug.Log(coloredObjectsCounter + "na" + maxObjectsToColor);
         switch (eventName)

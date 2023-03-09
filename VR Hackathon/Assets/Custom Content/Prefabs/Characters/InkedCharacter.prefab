@@ -9695,6 +9695,7 @@ GameObject:
   - component: {fileID: 8907533614177206866}
   - component: {fileID: 7550672481036408046}
   - component: {fileID: 9083828100993339585}
+  - component: {fileID: 6071702681861528217}
   m_Layer: 0
   m_Name: InkedCharacter
   m_TagString: Untagged
@@ -9758,7 +9759,6 @@ MonoBehaviour:
   _maxWalkDistance: 10
   _minWaitTime: 5
   _maxWaitTime: 20
-  IsWaiting: 0
 --- !u!95 &9083828100993339585
 Animator:
   serializedVersion: 5
@@ -9780,6 +9780,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6071702681861528217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5469904150676661292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93eafc177cf42824089c26a90c47ff3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4956332397397933638
 PrefabInstance:
   m_ObjectHideFlags: 0
