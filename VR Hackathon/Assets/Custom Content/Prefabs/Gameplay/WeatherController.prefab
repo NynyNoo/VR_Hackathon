@@ -46,4 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _daySkyboxTemplate: {fileID: 2100000, guid: ac89343c4eae1214e80fa834d1f8169d, type: 2}
   _nightSkyboxTemplate: {fileID: 2100000, guid: c5919c94e56342346880b80efc2c324a, type: 2}
+  _currentSkybox: {fileID: 2100000, guid: e5f47dad2c4379848ab51f52d0f7fbc7, type: 2}
   _progressTresholdForSkyboxChange: 50
+  _directionalLight: {fileID: 0}
+  _lightXRotationWhenSunUp: 15
+  _sunRisingTime: 5

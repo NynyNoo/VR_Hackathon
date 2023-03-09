@@ -54,13 +54,15 @@ public class WeatherController : MonoBehaviour
 
     private void CopyShaderColorParameter(Material from, Material to, string name)
     {
-        Color colorToCopy = from.GetColor(name);
-        to.SetColor(name, colorToCopy);
+        to.DOColor(from.GetColor(name), name, 5f).From(to.GetColor(name));
     }
 
     private void ResetWeather()
     {
-        CopyShaderColorParameter(_nightSkyboxTemplate, _currentSkybox, "_SkyGradientTop");
+        string changedParameterName = "_SkyGradientTop";
+
+        Color colorToCopy = _nightSkyboxTemplate.GetColor(changedParameterName);
+        _currentSkybox.SetColor(changedParameterName, colorToCopy);
     }
 
     private void OnApplicationQuit()
