@@ -19,6 +19,8 @@ public class GameProgressCounter : MonoBehaviour
     {
         coloredObjectsCounter++;
         CounterUpdated.Invoke(coloredObjectsCounter);
+        
+        Debug.Log(coloredObjectsCounter + " " + eventName);
 
         switch (eventName)
         {
