@@ -357,6 +357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &530990880350921130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -446,6 +447,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &1984963466277965275 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7146521406498821007, guid: a919b814ac72d8c48aa896a3bfd15815, type: 3}
@@ -465,6 +467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8327982168871215183 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8416272007918961125, guid: a919b814ac72d8c48aa896a3bfd15815, type: 3}
@@ -484,6 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8810341503847514681 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -208595431880416365, guid: a919b814ac72d8c48aa896a3bfd15815, type: 3}
@@ -503,6 +507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &906279018798944931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -583,6 +588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &799677599555777864 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: be3537de178abf544bb759aa92d4c72a, type: 3}
@@ -721,6 +727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3622525945974472356 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -740,6 +747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3972250631991840626 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -759,6 +767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &5136535619146878735 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -778,6 +787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &6153419610456780567 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -797,6 +807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7890253199800969638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -816,6 +827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8027845701057940479 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -835,6 +847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &1121293975486581893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -980,6 +993,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &1746402572530483943 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7515429101286732190, guid: 85e152b7bd2e45649804905f0168db2d, type: 3}
@@ -999,6 +1013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &2340755564172380615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3455292422214010178, guid: 85e152b7bd2e45649804905f0168db2d, type: 3}
@@ -1018,6 +1033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7368984936922521722 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1599826595754709761, guid: 85e152b7bd2e45649804905f0168db2d, type: 3}
@@ -1037,6 +1053,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8505295677876957153 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -466329591000292508, guid: 85e152b7bd2e45649804905f0168db2d, type: 3}
@@ -1056,6 +1073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &1289541328843336331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1141,6 +1159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &2229401960496970494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1274,6 +1293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &2487904578386112686 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1293,6 +1313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &2672610691729160439 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1312,6 +1333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &5139195604188944530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1331,6 +1353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &6160891625585817738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1350,6 +1373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &9034188439643765882 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1369,6 +1393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &9171737733525806627 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1388,6 +1413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &2462860256747742381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1474,20 +1500,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -6526665548058983841, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
   m_PrefabInstance: {fileID: 2462860256747742381}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &6476452377124992085
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522828882685617906}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -479638496556733688, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
 --- !u!114 &2621948431744514592
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1502,6 +1514,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
+--- !u!65 &4402050549096222758
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 522828882685617906}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.022552501, y: 0.011895987, z: 0.0002671107}
+  m_Center: {x: 0.0000000018626454, y: 0.017139494, z: 0.010968555}
 --- !u!1 &567684085131474065 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6499529959314878404, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
@@ -1531,20 +1557,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -8345570986605453483, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
   m_PrefabInstance: {fileID: 2462860256747742381}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &4616817781933124628
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3315569880202427384}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2627499303673878960, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
 --- !u!114 &7392849961880674618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1559,25 +1571,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
+--- !u!65 &6226769528942054918
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3315569880202427384}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.022552501, y: 0.002778491, z: 0.00026711164}
+  m_Center: {x: 0.0000000018626451, y: 0.0024207474, z: 0.003088556}
 --- !u!1 &3873231698552183677 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1724225477215535056, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
   m_PrefabInstance: {fileID: 2462860256747742381}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &1113553566907676044
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3873231698552183677}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2504111240187796284, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
 --- !u!114 &1321531816440557887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1592,25 +1604,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
+--- !u!65 &3671121546057770544
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3873231698552183677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.022552501, y: 0.002778491, z: 0.0002671113}
+  m_Center: {x: 0.0000000018626451, y: -0.00011925248, z: 0.0011185564}
 --- !u!1 &4655110595292717848 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7113312701823322037, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
   m_PrefabInstance: {fileID: 2462860256747742381}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &2755162895787910800
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4655110595292717848}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -2741476960362657415, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
 --- !u!114 &3639790206810888850
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1625,25 +1637,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
+--- !u!65 &6515198324084101384
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4655110595292717848}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.022552501, y: 0.002778491, z: 0.0002671107}
+  m_Center: {x: 0.0000000018626454, y: 0.010040748, z: 0.008998554}
 --- !u!1 &7259984402355869039 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5110867611536339394, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
   m_PrefabInstance: {fileID: 2462860256747742381}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &6823494136271489037
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7259984402355869039}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5946785033598734476, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
 --- !u!114 &1493503386787839862
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1658,25 +1670,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
+--- !u!65 &8038512973372873938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7259984402355869039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.022552501, y: 0.0027784908, z: 0.00026711117}
+  m_Center: {x: 0.0000000018626451, y: 0.0049607474, z: 0.005058556}
 --- !u!1 &7328852345513612346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5159020957209260183, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
   m_PrefabInstance: {fileID: 2462860256747742381}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &714656497737655644
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7328852345513612346}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 2239041897516101011, guid: 4636f44ab1a725d42a8efd9f32aeb406, type: 3}
 --- !u!114 &511740308758393283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1691,6 +1703,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
+--- !u!65 &422648398906676153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7328852345513612346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.022552501, y: 0.0027784905, z: 0.0002671107}
+  m_Center: {x: 0.0000000018626451, y: 0.007500747, z: 0.0070285546}
 --- !u!1001 &3518911771990214923
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1780,6 +1806,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &3730014759025073747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1908,6 +1935,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &955128635955703180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1927,6 +1955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &1131830552699720707 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1946,6 +1975,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &3767566564893276600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1970,6 +2000,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &5943431216551590542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1989,6 +2020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7665644161431911487 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2008,6 +2040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8668342582560218151 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2027,6 +2060,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &4243558862678081008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2155,6 +2189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &317159125609156143 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2174,6 +2209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &473611336612165536 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2193,6 +2229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &4426650512793688603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2217,6 +2254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &6583354286380554541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2236,6 +2274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7153506369683218332 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2255,6 +2294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8172812052530773892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2274,6 +2314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &4475019744387442909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2368,6 +2409,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &4148043689168457526 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1a69fcc40eaedb046a047ca66284cb26, type: 3}
@@ -2501,6 +2543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &243456382972524505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2520,6 +2563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &356130723633577856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2539,6 +2583,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &4079393172715936354 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2563,6 +2608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &6822584677753117012 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2582,6 +2628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7400585641950126053 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2601,6 +2648,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8401988509541203965 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2620,6 +2668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &5948675203962332220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2748,6 +2797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &1802143106311317064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2767,6 +2817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3540532258073633464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2786,6 +2837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3689876421212651745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2805,6 +2857,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &6126947086876541911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2829,6 +2882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7786460227704936419 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2848,6 +2902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7997071160303414892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2867,6 +2922,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &6192319254694825223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2995,6 +3051,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &2188756574345236339 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3014,6 +3071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3771599861049502170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3033,6 +3091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3909131408130870147 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3052,6 +3111,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &5937205494217763564 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3076,6 +3136,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7740959109619629784 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3095,6 +3156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7928835132116684558 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3114,6 +3176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &6597698943678255096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3194,6 +3257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &6630711828040443923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: be3537de178abf544bb759aa92d4c72a, type: 3}
@@ -3327,6 +3391,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &1724091569399583467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3346,6 +3411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &4456972296643179586 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3365,6 +3431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &4597388975082984987 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3384,6 +3451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &6622545826523658100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3408,6 +3476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7124795680448275264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3427,6 +3496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7459600547761033878 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3446,6 +3516,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &6968574645049284148
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3612,6 +3683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &8960393838656403979 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0387e23d4b3fe31429ea4d07251c9d76, type: 3}
