@@ -9792,6 +9792,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93eafc177cf42824089c26a90c47ff3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _restorationStatusTreshold: 0.6
+  _inkDrops: {fileID: 3542892369474772115}
+  IsColorRestored: 0
 --- !u!1001 &4956332397397933638
 PrefabInstance:
   m_ObjectHideFlags: 0
