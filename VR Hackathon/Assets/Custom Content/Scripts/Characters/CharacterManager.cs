@@ -18,13 +18,13 @@ public class CharacterManager : MonoBehaviour
     {
         if (_passedTime > 5f)
         {
-            RetrieveColorToCharacters();
+            RestoreColorToCharacters();
         }
 
         _passedTime += Time.deltaTime;
     }
 
-    private void RetrieveColorToCharacters()
+    private void RestoreColorToCharacters()
     {
         for (int i = 0; i < _characterRenderers.Length; i++)
         {
