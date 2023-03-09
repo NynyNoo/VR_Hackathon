@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -14,9 +15,8 @@ public class CharacterWanderBehaviour : MonoBehaviour
     [SerializeField]
     private float _maxWaitTime = 20f;
 
-    public bool IsWaiting;
-
-    private Vector3 _currentDestination;
+    private bool _isWaiting;
+    private bool _isWalking;
 
     void Start()
     {
@@ -28,10 +28,12 @@ public class CharacterWanderBehaviour : MonoBehaviour
     {
         if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
         {
-            if (IsWaiting == false)
-            {
-                StartCoroutine(WaitBeforeWandering());
-            }
+            _isWalking = false;
+        }
+
+        if (_isWaiting == false && _isWalking == false)
+        {
+            StartCoroutine(WaitBeforeWandering());
         }
     }
 
@@ -48,7 +50,12 @@ public class CharacterWanderBehaviour : MonoBehaviour
 
     private IEnumerator WaitBeforeWandering()
     {
-        IsWaiting = true;
+        if (_isWalking == true)
+        {
+            yield break;
+        }
+
+        _isWaiting = true;
 
         float passedTime = 0;
         float timeToWait = Random.Range(_minWaitTime, _maxWaitTime);
@@ -65,7 +72,8 @@ public class CharacterWanderBehaviour : MonoBehaviour
     private void GoToARandomPosition()
     {
         _navMeshAgent.destination = GetRandomPositionOnNavmesh();
-        _navMeshAgent.isStopped = false;
-        IsWaiting = false;
+
+        _isWaiting = false;
+        _isWalking = true;
     }
 }
