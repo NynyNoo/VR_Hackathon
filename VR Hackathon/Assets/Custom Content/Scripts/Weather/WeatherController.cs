@@ -18,6 +18,8 @@ public class WeatherController : MonoBehaviour
     private float _lightXRotationWhenSunUp = 15f;
     [SerializeField]
     private float _sunRisingTime = 5f;
+    [SerializeField]
+    private CityLightsController _cityLightsController;
 
     private Material _currentSkybox;
 
@@ -50,6 +52,7 @@ public class WeatherController : MonoBehaviour
     private void ChangeWeatherToDay()
     {
         CopyShaderColorParameter(_daySkyboxTemplate, _currentSkybox, "_SkyGradientTop");
+        _cityLightsController.BeginDisablingAllLights();
     }
 
     private void CopyShaderColorParameter(Material from, Material to, string name)
