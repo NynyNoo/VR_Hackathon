@@ -10,7 +10,7 @@ public class Coloring : MonoBehaviour
         if (other.tag == "Colorable")
         {
             Colorable colorable = other.GetComponent<Colorable>();
-            colorable.ChangeColor(brushPower, brushRenderer.material.color);
+            colorable.ChangeColor(brushPower, brushRenderer.material.color, true);
         }
 
         if (other.tag == "MultipleColorable")

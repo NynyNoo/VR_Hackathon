@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: ee1a2b716c5ae144a88bfe7b2dd3f634, type: 2}
+--- !u!114 &376175005 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4302041150932503848, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+  m_PrefabInstance: {fileID: 1663463611}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &579826320
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,6 +2050,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 628701145305327404, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+      propertyPath: Colorables.Array.data[64]
+      value: 
+      objectReference: {fileID: 376175005}
     - target: {fileID: 629766653675019239, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -13183,6 +13198,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 5145797962400398924, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+      propertyPath: Colorables.Array.data[64]
+      value: 
+      objectReference: {fileID: 2052077449}
     - target: {fileID: 5146449166950324396, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -23171,6 +23190,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 9020219688581509548, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+      propertyPath: Colorables.Array.data[64]
+      value: 
+      objectReference: {fileID: 2020092640}
     - target: {fileID: 9020793055457398097, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 8
@@ -23808,6 +23831,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 10, y: 1, z: 10}
   m_Center: {x: 0, y: -0.5, z: 0}
+--- !u!114 &2020092640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5630680399439813544, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+  m_PrefabInstance: {fileID: 1663463611}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2052077449 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8386819634999989320, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+  m_PrefabInstance: {fileID: 1663463611}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c62005c65778ac41b888774f0e52070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2077974308
 GameObject:
   m_ObjectHideFlags: 0
