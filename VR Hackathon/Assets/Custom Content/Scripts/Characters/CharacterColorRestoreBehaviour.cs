@@ -9,6 +9,8 @@ public class CharacterColorRestoreBehaviour : MonoBehaviour
     private float _restorationStatusTreshold = 0.6f;
     [SerializeField]
     private ParticleSystem _inkDrops;
+    [SerializeField]
+    private CharacterWanderBehaviour _wanderBehaviour;
 
     public bool IsColorRestored;
     private Renderer _renderer;
@@ -28,6 +30,7 @@ public class CharacterColorRestoreBehaviour : MonoBehaviour
         {
             IsColorRestored = true;
             DisableInkDrops();
+            _wanderBehaviour.ChangeMoodToHappy();
         }
     }
 
