@@ -121,7 +121,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6185281426069854528}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &7095783265704159006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9af1bf227d8e76c4e9c9844c7e584cc7, type: 3}
