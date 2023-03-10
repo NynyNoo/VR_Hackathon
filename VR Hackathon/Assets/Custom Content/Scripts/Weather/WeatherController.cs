@@ -22,6 +22,7 @@ public class WeatherController : MonoBehaviour
     private CityLightsController _cityLightsController;
 
     private Material _currentSkybox;
+    private bool _isSwapped;
 
     private void Awake()
     {
@@ -33,8 +34,9 @@ public class WeatherController : MonoBehaviour
 
     private void HandleCounterUpdate(int progress)
     {
-        if (progress > _progressTresholdForSkyboxChange)
+        if (progress > _progressTresholdForSkyboxChange && _isSwapped == false)
         {
+            _isSwapped = true;
             ChangeWeatherToDay();
             ChangeSunPosition();
         }
@@ -65,7 +67,7 @@ public class WeatherController : MonoBehaviour
     {
         DOTween.To(() => RenderSettings.fogDensity,
             (x) => RenderSettings.fogDensity = x,
-            0f, _sunRisingTime).SetEase(Ease.InCirc);
+            0f, _sunRisingTime);
     }
 
     private void ResetWeather()
