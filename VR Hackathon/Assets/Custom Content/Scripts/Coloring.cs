@@ -37,7 +37,7 @@ public class Coloring : MonoBehaviour
 
     private void SplashPaint()
     {
-        _splatParticles.Emit(1);
+        _splatParticles.Emit(5);
         PlayRandomSplat();
     }
 
