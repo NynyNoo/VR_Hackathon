@@ -22,6 +22,7 @@ public class WeatherController : MonoBehaviour
     private CityLightsController _cityLightsController;
 
     private Material _currentSkybox;
+    private bool _isSwapped;
 
     private void Awake()
     {
@@ -33,8 +34,9 @@ public class WeatherController : MonoBehaviour
 
     private void HandleCounterUpdate(int progress)
     {
-        if (progress > _progressTresholdForSkyboxChange)
+        if (progress > _progressTresholdForSkyboxChange && _isSwapped == false)
         {
+            _isSwapped = true;
             ChangeWeatherToDay();
             ChangeSunPosition();
         }
