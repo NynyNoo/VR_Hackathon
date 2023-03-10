@@ -16,6 +16,8 @@ public class AmbientSoundManager : MonoBehaviour
     [SerializeField]
     private float _progressThreshold;
 
+    private bool _isSwapped;
+
     private void Start()
     {
         GameProgressCounter.CounterUpdated += TrySwap;
@@ -23,7 +25,7 @@ public class AmbientSoundManager : MonoBehaviour
 
     private void TrySwap(int coloredObjects)
     {
-        if(coloredObjects >= _progressThreshold)
+        if(coloredObjects >= _progressThreshold && _isSwapped == false)
         {
             SwapAmbientSounds();
         }
@@ -31,6 +33,8 @@ public class AmbientSoundManager : MonoBehaviour
 
     private void SwapAmbientSounds()
     {
+        _isSwapped = true;
+
         _dayAmbient.Play();
         TweenSourceVolume(_dayAmbient, 0f,
             1f, _dayAudioTweeningDuration);
