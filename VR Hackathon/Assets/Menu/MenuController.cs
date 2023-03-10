@@ -99,7 +99,7 @@ public class MenuController : MonoBehaviour
     }
     public void StartGame()
     {
-        mainMenu.SetActive(false);
+        menuBox.SetActive(false);
     }
     public void OpenMenu(int id)
     {
@@ -108,7 +108,7 @@ public class MenuController : MonoBehaviour
             case 1:
                 CloseMenu();
                 currentMenu = mainMenu;
-                menuBox.SetActive(false);
+                mainMenu.SetActive(true);
                 break;
             case 2:
                 CloseMenu();
