@@ -12,6 +12,13 @@ public class Coloring : MonoBehaviour
     private AudioSource _splatSource;
     [SerializeField]
     private ParticleSystem _splatParticles;
+    
+    private ParticleSystemRenderer _splatRenderer;
+
+    private void Start()
+    {
+        _splatRenderer = _splatParticles.GetComponent<ParticleSystemRenderer>();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -37,6 +44,7 @@ public class Coloring : MonoBehaviour
 
     private void SplashPaint()
     {
+        _splatRenderer.material.color = brushRenderer.material.color;
         _splatParticles.Emit(5);
         PlayRandomSplat();
     }
