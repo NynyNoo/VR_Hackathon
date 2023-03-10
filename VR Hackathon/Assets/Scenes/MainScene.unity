@@ -1198,6 +1198,10 @@ PrefabInstance:
       propertyPath: m_InvalidColorGradient.m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5869405876914143173, guid: 3541e852aab281f4aa98b787af889f65, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5869405877607353784, guid: 3541e852aab281f4aa98b787af889f65, type: 3}
       propertyPath: m_LineLength
       value: 1
