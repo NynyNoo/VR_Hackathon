@@ -10,6 +10,8 @@ public class Coloring : MonoBehaviour
     private AudioClip[] _splatAudios;
     [SerializeField]
     private AudioSource _splatSource;
+    [SerializeField]
+    private ParticleSystem _splatParticles;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,7 +19,7 @@ public class Coloring : MonoBehaviour
         {
             Colorable colorable = other.GetComponent<Colorable>();
             colorable.ChangeColor(brushPower, brushRenderer.material.color, true);
-            PlayRandomSplat();
+            SplashPaint();
         }
 
         if (other.tag == "MultipleColorable")
@@ -28,9 +30,15 @@ public class Coloring : MonoBehaviour
             if (otherScript != null)
             {
                 otherScript.ChangeColorsOfThisShaders(brushPower, brushRenderer.material.color);
-                PlayRandomSplat();
+                SplashPaint();
             }
         }
+    }
+
+    private void SplashPaint()
+    {
+        _splatParticles.Emit(1);
+        PlayRandomSplat();
     }
 
     private void PlayRandomSplat()
