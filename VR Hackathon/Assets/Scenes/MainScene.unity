@@ -2451,6 +2451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BobRoseSet
       objectReference: {fileID: 0}
+    - target: {fileID: 5064044748298627932, guid: 5a2df77a3b36f6b44ad28ca36bee83ec, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 17111d67be4273f48994675e6dd7264d, type: 2}
     - target: {fileID: 9172572703722722987, guid: 5a2df77a3b36f6b44ad28ca36bee83ec, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.103
