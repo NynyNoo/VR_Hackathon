@@ -1130,6 +1130,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5869405876240662723, guid: 3541e852aab281f4aa98b787af889f65, type: 3}
+      propertyPath: m_AllowAnchorControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869405877607353790, guid: 3541e852aab281f4aa98b787af889f65, type: 3}
+      propertyPath: m_AllowAnchorControl
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6455290398392285531, guid: 3541e852aab281f4aa98b787af889f65, type: 3}
       propertyPath: m_MinHeight
       value: 1
