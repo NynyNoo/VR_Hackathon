@@ -67,7 +67,7 @@ public class WeatherController : MonoBehaviour
     {
         DOTween.To(() => RenderSettings.fogDensity,
             (x) => RenderSettings.fogDensity = x,
-            0f, _sunRisingTime).SetEase(Ease.InCirc);
+            0f, _sunRisingTime);
     }
 
     private void ResetWeather()
