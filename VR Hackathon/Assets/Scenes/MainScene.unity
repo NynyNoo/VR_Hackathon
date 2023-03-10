@@ -32573,6 +32573,22 @@ PrefabInstance:
       propertyPath: m_StepOffset
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 8835583960214658662, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835583960784454653, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835583960796723189, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835583960927808304, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8835583960960176868, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -32620,6 +32636,22 @@ PrefabInstance:
     - target: {fileID: 8835583960960176869, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
       propertyPath: m_Name
       value: XR Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835583960960176869, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835583961152368180, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835583961715561229, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835583961944370182, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a158d6c26806b4197cf696d88fd504, type: 3}
