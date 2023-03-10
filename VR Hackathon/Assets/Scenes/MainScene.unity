@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 71411067}
   m_Layer: 0
-  m_Name: MuralManager
+  m_Name: Murals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -201,6 +201,7 @@ GameObject:
   m_Component:
   - component: {fileID: 131643254}
   - component: {fileID: 131643255}
+  - component: {fileID: 131643256}
   m_Layer: 0
   m_Name: Cat
   m_TagString: Untagged
@@ -230,7 +231,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131643253}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
   m_Name: 
@@ -246,6 +247,20 @@ MonoBehaviour:
   m_Offset: {x: 0, y: 0, z: 0.5}
   m_Size: {x: 5.27, y: 3.39, z: 1}
   m_FadeFactor: 1
+--- !u!114 &131643256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131643253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07e92903539d1d4d81391a00e44fb14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _progressTreshold: 13
+  _decalProjector: {fileID: 131643255}
 --- !u!1 &193833457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1548,6 +1563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1053060219}
   - component: {fileID: 1053060220}
+  - component: {fileID: 1053060221}
   m_Layer: 0
   m_Name: Parrot
   m_TagString: Untagged
@@ -1577,7 +1593,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053060218}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
   m_Name: 
@@ -1593,6 +1609,20 @@ MonoBehaviour:
   m_Offset: {x: 0, y: 0, z: 0.5}
   m_Size: {x: 3.08, y: 4.53, z: 1}
   m_FadeFactor: 1
+--- !u!114 &1053060221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053060218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07e92903539d1d4d81391a00e44fb14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _progressTreshold: 10
+  _decalProjector: {fileID: 1053060220}
 --- !u!1 &1116212973
 GameObject:
   m_ObjectHideFlags: 0
@@ -2215,6 +2245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1872469549}
   - component: {fileID: 1872469550}
+  - component: {fileID: 1872469551}
   m_Layer: 0
   m_Name: Fish
   m_TagString: Untagged
@@ -2244,7 +2275,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872469548}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
   m_Name: 
@@ -2260,6 +2291,20 @@ MonoBehaviour:
   m_Offset: {x: 0, y: 0, z: 0.5}
   m_Size: {x: 3.08, y: 4.53, z: 1}
   m_FadeFactor: 1
+--- !u!114 &1872469551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1872469548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f07e92903539d1d4d81391a00e44fb14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _progressTreshold: 17
+  _decalProjector: {fileID: 1872469550}
 --- !u!1001 &1879985520
 PrefabInstance:
   m_ObjectHideFlags: 0
