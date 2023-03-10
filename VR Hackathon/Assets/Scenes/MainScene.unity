@@ -1086,10 +1086,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment
       objectReference: {fileID: 0}
+    - target: {fileID: 4954981382774854844, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5145797962400398924, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
       propertyPath: Colorables.Array.data[64]
       value: 
       objectReference: {fileID: 715018313}
+    - target: {fileID: 5739111668307901179, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8447801273741593587, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1133,6 +1141,10 @@ PrefabInstance:
     - target: {fileID: 8447801273741593587, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8574216960147787943, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9020219688581509548, guid: bb913561fad5d6346be86c141dfeca0e, type: 3}
       propertyPath: Colorables.Array.data[64]
