@@ -5,6 +5,12 @@ public class Coloring : MonoBehaviour
     [SerializeField] public Renderer brushRenderer;
     [SerializeField] public float brushSize;
     [SerializeField] public float brushPower;
+
+    [SerializeField]
+    private AudioClip[] _splatAudios;
+    [SerializeField]
+    private AudioSource _splatSource;
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Colorable")
