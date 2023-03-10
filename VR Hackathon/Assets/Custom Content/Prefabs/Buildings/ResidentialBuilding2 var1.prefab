@@ -74,7 +74,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2745890218196821253}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.75, y: 10.7, z: 4.75}
@@ -375,6 +375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &906279018798944931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -455,6 +456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &799677599555777864 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: be3537de178abf544bb759aa92d4c72a, type: 3}
@@ -593,6 +595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3622525945974472356 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -612,6 +615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3972250631991840626 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -631,6 +635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &5136535619146878735 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -650,6 +655,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &6153419610456780567 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -669,6 +675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7890253199800969638 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -688,6 +695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8027845701057940479 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -707,6 +715,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &1121293975486581893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -852,6 +861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &1746402572530483943 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7515429101286732190, guid: 85e152b7bd2e45649804905f0168db2d, type: 3}
@@ -871,6 +881,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &2340755564172380615 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3455292422214010178, guid: 85e152b7bd2e45649804905f0168db2d, type: 3}
@@ -890,6 +901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7368984936922521722 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1599826595754709761, guid: 85e152b7bd2e45649804905f0168db2d, type: 3}
@@ -909,6 +921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8505295677876957153 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -466329591000292508, guid: 85e152b7bd2e45649804905f0168db2d, type: 3}
@@ -928,6 +941,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &1289541328843336331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1013,6 +1027,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &1408113523831078513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1270,6 +1285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &2487904578386112686 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1289,6 +1305,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &2672610691729160439 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1308,6 +1325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &5139195604188944530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1327,6 +1345,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &6160891625585817738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1346,6 +1365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &9034188439643765882 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1365,6 +1385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &9171737733525806627 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1384,6 +1405,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &2662433760682482102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1535,6 +1557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &3730014759025073747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1663,6 +1686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &955128635955703180 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1682,6 +1706,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &1131830552699720707 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1701,6 +1726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &3767566564893276600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1725,6 +1751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &5943431216551590542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1744,6 +1771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7665644161431911487 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1763,6 +1791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8668342582560218151 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1782,6 +1811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &4243558862678081008
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1910,6 +1940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &317159125609156143 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1929,6 +1960,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &473611336612165536 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1948,6 +1980,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &4426650512793688603 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1972,6 +2005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &6583354286380554541 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -1991,6 +2025,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7153506369683218332 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2010,6 +2045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8172812052530773892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2029,6 +2065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &4545912165023776137
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2157,6 +2194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &243456382972524505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2176,6 +2214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &356130723633577856 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2195,6 +2234,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &4079393172715936354 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2219,6 +2259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &6822584677753117012 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2238,6 +2279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7400585641950126053 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2764512629625626004, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2257,6 +2299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8401988509541203965 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2276,6 +2319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &5266483329330893964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2466,6 +2510,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &1802143106311317064 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2485,6 +2530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3540532258073633464 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2504,6 +2550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3689876421212651745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2523,6 +2570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &6126947086876541911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2547,6 +2595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7786460227704936419 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2566,6 +2615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7997071160303414892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4356877828898064976, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2585,6 +2635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &6192319254694825223
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2713,6 +2764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &2188756574345236339 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2732,6 +2784,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3771599861049502170 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2751,6 +2804,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &3909131408130870147 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2770,6 +2824,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &5937205494217763564 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2794,6 +2849,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7740959109619629784 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2813,6 +2869,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7928835132116684558 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -2832,6 +2889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &6597698943678255096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2912,6 +2970,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &6630711828040443923 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: be3537de178abf544bb759aa92d4c72a, type: 3}
@@ -3045,6 +3104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &1724091569399583467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3778644264426962316, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3064,6 +3124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &4456972296643179586 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2181743766629440291, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3083,6 +3144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &4597388975082984987 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2040254050740271484, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3102,6 +3164,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &6622545826523658100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3126,6 +3189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7124795680448275264 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4504409719310791647, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3145,6 +3209,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &7459600547761033878 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4906838889796845047, guid: 7d957d2b73d501449b37c6f90ca18750, type: 3}
@@ -3164,6 +3229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1001 &6958659774722012997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3454,6 +3520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &8960393838656403979 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0387e23d4b3fe31429ea4d07251c9d76, type: 3}
@@ -3551,6 +3618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!1 &8144613131765260616 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 978263148236074363, guid: 900c13b2a69a9fd44960c8f9031fc509, type: 3}
@@ -3570,6 +3638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!114 &8555183652900293015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3584,6 +3653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BrightnessModifier: 0
   TweeningDuration: 0.5
+  scriptable: {fileID: 0}
 --- !u!4 &8871737389841886168 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 900c13b2a69a9fd44960c8f9031fc509, type: 3}
