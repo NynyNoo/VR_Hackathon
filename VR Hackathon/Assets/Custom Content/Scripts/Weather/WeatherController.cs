@@ -34,7 +34,7 @@ public class WeatherController : MonoBehaviour
 
     private void HandleCounterUpdate(int progress)
     {
-        if (progress > _progressTresholdForSkyboxChange && _isSwapped == false)
+        if (progress >= _progressTresholdForSkyboxChange && _isSwapped == false)
         {
             _isSwapped = true;
             ChangeWeatherToDay();

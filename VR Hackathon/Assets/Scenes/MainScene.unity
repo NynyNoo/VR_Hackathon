@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f07e92903539d1d4d81391a00e44fb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _progressTreshold: 13
+  _progressTreshold: 40
   _decalProjector: {fileID: 131643255}
 --- !u!1 &193833457
 GameObject:
@@ -53677,7 +53677,7 @@ PrefabInstance:
       objectReference: {fileID: 1299434373}
     - target: {fileID: 2429063271195844776, guid: a8e3d1c1a59a8f04cb64dfa7920587a4, type: 3}
       propertyPath: _progressTresholdForSkyboxChange
-      value: 20
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 7408289745123005300, guid: a8e3d1c1a59a8f04cb64dfa7920587a4, type: 3}
       propertyPath: m_RootOrder
@@ -53871,7 +53871,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh4173076
+  m_Name: pb_Mesh4511076
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -54469,7 +54469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f07e92903539d1d4d81391a00e44fb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _progressTreshold: 10
+  _progressTreshold: 40
   _decalProjector: {fileID: 1053060220}
 --- !u!1 &1116212973
 GameObject:
@@ -55783,7 +55783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f07e92903539d1d4d81391a00e44fb14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _progressTreshold: 17
+  _progressTreshold: 40
   _decalProjector: {fileID: 1872469550}
 --- !u!1001 &1879985520
 PrefabInstance:
@@ -56061,7 +56061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5142942074502162957, guid: 3f569eaab2775034d81865896145edea, type: 3}
       propertyPath: _progressChangeTreshold
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5142942074502162958, guid: 3f569eaab2775034d81865896145edea, type: 3}
       propertyPath: m_Name
